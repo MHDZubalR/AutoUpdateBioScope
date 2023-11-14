@@ -11,4 +11,4 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Run PHP Script
-      run: php MHDZubaIR/AutoUpdateBioscope/Loop.php
+      run: php MHDZubaIR/blob/main/AutoUpdateBioscope/Loop.php
