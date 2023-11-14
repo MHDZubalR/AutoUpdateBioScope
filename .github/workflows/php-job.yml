@@ -1,0 +1,14 @@
+yaml
+name: Run PHP File
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  run-php-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Run PHP Script
+      run: php MHDZubaIR/AutoUpdateBioscope/Loop.php
