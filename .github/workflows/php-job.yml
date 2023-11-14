@@ -2,7 +2,7 @@ yaml
 name: Run PHP File
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   run-php-job:
